@@ -1,20 +1,21 @@
-import '../scss/style.scss'
 import * as flsFunctions from './core/functions.js'
-import { scrollToAnchor } from './modules/scrollToAnchor.js'
-import { headerFixed } from './modules/index.js'
+import {scrollToAnchor} from './modules/scrollToAnchor.js'
+import {headerFixed} from './modules/index.js'
 import burger from './modules/burger.js'
 import initMenus from './modules/menuCustom.js'
 import accordion from './modules/accordion.js'
 import initTabsfrom from './modules/tabs.js'
 import {
-	reviewsSlider,
-	teemSlider,
-	presentCarSlider,
-	transitCarSlider,
+    reviewsSlider,
+    teemSlider,
+    presentCarSlider,
+    transitCarSlider,
 } from './modules/sliders.js'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
+import '../scss/tailwind.scss'
+import '../scss/style.scss'
 
 import HeaderComponent from './modules/HeaderComponent.js'
 import './libs/dynamic_adapt.js'
@@ -37,18 +38,18 @@ flsFunctions.fullVHfix()
 // import './files/scroll/lazyload.js';
 accordion('.accordion', '.accordion-header', '.accordion-content')
 window.addEventListener('DOMContentLoaded', () => {
-	try {
-		HeaderComponent()
-		scrollToAnchor()
-		headerFixed()
-		burger()
-		initMenus()
-		reviewsSlider()
-		teemSlider()
-		initTabsfrom()
-		presentCarSlider()
-		transitCarSlider()
-	} catch (e) {
-		console.log(e)
-	}
+    try {
+        HeaderComponent()
+        scrollToAnchor()
+        headerFixed()
+        burger()
+        initMenus()
+        reviewsSlider()
+        teemSlider()
+        initTabsfrom()
+        presentCarSlider()
+        transitCarSlider()
+    } catch (e) {
+        console.log(e)
+    }
 })

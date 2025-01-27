@@ -1,0 +1,8 @@
+.header {
+  nav.menu {
+    @media all and (max-width: 1024px) {
+      background: none;
+      box-shadow: none;
+    }
+  }
+}

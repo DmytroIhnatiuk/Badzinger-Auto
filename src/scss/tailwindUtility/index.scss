@@ -1,12 +1,6 @@
-@tailwind base;
-@tailwind components;
+
 @tailwind utilities;
 
-@layer components {
-	// .gradient-btn {
-	// 	@apply;
-	// }
-}
 @layer utilities {
 	.btn-outline {
 		background: linear-gradient(99deg, #09f 21.14%, #0079ca 67.6%);
