@@ -1,0 +1,70 @@
+<header class="header z-[100] !fixed w-full transition-transform duration-300">
+	<div
+		class="container max-h-[var(--header-height)] flex justify-between items-center my-24"
+	>
+		<a href="#">
+			<img
+				class="h-[.42rem] sm:h-[.52rem] object-contain"
+				src="@img/logo_white.png"
+				alt="logo"
+			/>
+		</a>
+		<nav
+			class="menu flex flex-col lg:flex-row items-center lg:static absolute top-0 -right-[3.6rem] w-[3.6rem] max-h-[6.9rem ] h-max lg:w-auto lg:h-auto py-[1.2rem] px-16 lg:p-0 menu-gradient box-shadow lg:shadow-none font-semibold lg:!bg-gradient-to-r transition-transform duration-300"
+		>
+			<ul
+				class="flex flex-col items-center lg:flex-row gap-40 lg:mr-[.52rem] text-[.2rem] lg:text-s mb-[.54rem] lg:mb-0"
+			>
+				<li
+					class="menu-link active w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"><span class="relative z-10">Послуги</span></a>
+				</li>
+				<li
+					class="menu-link w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"> <span class="relative z-10">Про нас</span></a>
+				</li>
+				<li
+					class="menu-link w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"><span class="relative z-10">Автопарк</span> </a>
+				</li>
+				<li
+					class="menu-link w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"><span class="relative z-10">Сервіс</span> </a>
+				</li>
+				<li
+					class="menu-link w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"><span class="relative z-10">Доставка</span> </a>
+				</li>
+				<li
+					class="menu-link w-max border-t border-solid border-transparent lg:hover:border-white transition-colors duration-300 ease-linear"
+				>
+					<a href="#"><span class="relative z-10">Контакти</span></a>
+				</li>
+			</ul>
+			<button
+				class="flex-center w-[1.88rem] h-[.46rem] bg-transparent border border-white border-solid rounded-8 font-medium leading-normal relative before:absolute before:btn-outline before:rounded-8 before:-top-1 before:-right-1 before:-bottom-1 before:-left-1 before:opacity-0 active:before:opacity-100 lg:hover:before:opacity-100 before:transition-opacity before:duration-[.35s]"
+			>
+				<span class="z-10">Підібрати авто</span>
+			</button>
+		</nav>
+		<div class="flex lg:hidden">
+			<button
+				class="flex-center w-[1.24rem] h-[.32rem] bg-transparent border border-white border-solid rounded-8 font-medium relative before:absolute before:btn-outline before:rounded-8 before:-top-1 before:-right-1 before:-bottom-1 before:-left-1 before:opacity-0 active:before:opacity-100 lg:hover:before:opacity-100 before:transition-opacity before:duration-[.35s] text-s leading-none mr-8 -z-10"
+			>
+				<span class="z-10">Підібрати авто</span>
+			</button>
+			<button
+				class="burger size-32 border border-white border-solid rounded-8 relative z-[100] transition-colors duration-300"
+			>
+				<span
+					class="relative block mx-auto h-1 w-16 bg-white rounded-[1px] before:h-1 before:w-16 before:absolute before:-top-[.05rem] before:-translate-x-1/2 before:bg-white before:rounded-[1px] after:h-1 after:w-16 after:absolute after:-bottom-[.05rem] after:-translate-x-1/2 after:bg-white after:rounded-[1px] before:transition-transform before:duration-300 after:transition-transform after:duration-300 transition-colors duration-300"
+				></span>
+			</button>
+		</div>
+	</div>
+</header>
