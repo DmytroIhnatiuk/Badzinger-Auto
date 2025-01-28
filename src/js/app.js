@@ -14,8 +14,9 @@ import {
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/thumbs'
-import '../scss/tailwind.scss'
 import '../scss/style.scss'
+import '../scss/tailwind.scss'
+
 
 import HeaderComponent from './modules/HeaderComponent.js'
 import './libs/dynamic_adapt.js'

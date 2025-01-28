@@ -2,15 +2,13 @@
 @import 'base';
 @import 'helpers';
 @import 'components';
-
+//@import "tailwind";
 
 .menu-gradient {
   background: linear-gradient(132deg, #20293d 18.62%, #0c1321 73.87%);
 }
 
-.box-shadow {
-  box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.15);
-}
+
 
 
 @media all and (max-width: 1023px) {
